@@ -1,4 +1,12 @@
 import { Invoice } from "./classes/Invoice.js";
+import { Payment } from "./classes/Payment.js";
+let docOne;
+let docTwo;
+docOne = new Invoice("yoshi", "web work", 250);
+docTwo = new Payment("mario", "plumbing work", 200);
+let docs = [];
+docs.push(docOne);
+docs.push(docTwo);
 const me = {
     name: "Chase",
     age: 25,
